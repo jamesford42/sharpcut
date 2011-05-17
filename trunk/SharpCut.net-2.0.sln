@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.UnitTests.net-2.0", "test\SharpCut.UnitTests\SharpCut.UnitTests.net-2.0.csproj", "{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.net-2.0", "src\SharpCut\SharpCut.net-2.0.csproj", "{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

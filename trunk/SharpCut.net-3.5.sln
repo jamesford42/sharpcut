@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.UnitTests.net-3.5", "test\SharpCut.UnitTests\SharpCut.UnitTests.net-3.5.csproj", "{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.net-3.5", "src\SharpCut\SharpCut.net-3.5.csproj", "{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.PerformanceTest", "example\SharpCut.PerformanceTest\SharpCut.PerformanceTest.csproj", "{C366C4D3-C9B4-466F-94FC-88FE68E118D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.Inception", "example\SharpCut.Inception\SharpCut.Inception.csproj", "{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.CachePerformance", "example\SharpCut.CachePerformance\SharpCut.CachePerformance.csproj", "{94565B31-D97B-43E0-BB34-87551B2F68AF}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CCE23C-5FDD-49A4-931F-4B4E8C491463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C366C4D3-C9B4-466F-94FC-88FE68E118D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C366C4D3-C9B4-466F-94FC-88FE68E118D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C366C4D3-C9B4-466F-94FC-88FE68E118D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C366C4D3-C9B4-466F-94FC-88FE68E118D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
