@@ -15,7 +15,7 @@
     <TargetFrameworkSubset>
     </TargetFrameworkSubset>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>..\..\dependency\Key\kennehtxu-open-source.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>..\..\dependency\Key\kennethxu-open-source.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -61,8 +61,8 @@
     <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\dependency\Key\kennehtxu-open-source.snk">
-      <Link>kennehtxu-open-source.snk</Link>
+    <None Include="..\..\dependency\Key\kennethxu-open-source.snk">
+      <Link>kennethxu-open-source.snk</Link>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
