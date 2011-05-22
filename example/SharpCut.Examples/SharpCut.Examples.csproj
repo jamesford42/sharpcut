@@ -5,19 +5,14 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{94565B31-D97B-43E0-BB34-87551B2F68AF}</ProjectGuid>
+    <ProjectGuid>{1A8000BD-22D3-4DB0-A970-7902016B4DEA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SharpCut.CachePerformance</RootNamespace>
-    <AssemblyName>SharpCut.CachePerformance</AssemblyName>
+    <RootNamespace>SharpCut.Examples</RootNamespace>
+    <AssemblyName>SharpCut.Examples</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <StartupObject>
-    </StartupObject>
-    <SccProjectName>Svn</SccProjectName>
-    <SccLocalPath>Svn</SccLocalPath>
-    <SccAuxPath>Svn</SccAuxPath>
-    <SccProvider>SubversionScc</SccProvider>
+    <StartupObject>SharpCut.Examples.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -45,10 +40,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Base.Base\BaseBase.cs" />
+    <Compile Include="Base.Base\Child.cs" />
+    <Compile Include="Base.Base\GrandParent.cs" />
+    <Compile Include="Base.Base\Parent.cs" />
+    <Compile Include="ExplicitImpl\CallExplicitImpl.cs" />
+    <Compile Include="ExplicitImpl\Child.cs" />
+    <Compile Include="ExplicitImpl\IBar.cs" />
+    <Compile Include="ExplicitImpl\Parent.cs" />
+    <Compile Include="PrivateField\AccessPrivateField.cs" />
+    <Compile Include="PrivateField\Shammer.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SharpCut\SharpCut.net-3.5.csproj">
+      <Project>{0C2B5DC5-98FC-4531-ACFC-D15DCECF8A80}</Project>
+      <Name>SharpCut.net-3.5</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

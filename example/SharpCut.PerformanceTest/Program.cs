@@ -101,10 +101,49 @@ namespace SharpCut.PerformanceTest
                 methodInfo.Invoke(sub, new object[] {1, o});
             stopwatch.Stop();
             WriteResult("MethodInfo.Invoke", stopwatch.ElapsedMilliseconds, loop/1000);
+
+            Sub[] array = null;
+
         }
+
+        private static int Process1(object calculator)
+        {
+            // This is tedious, ugly and error prone.
+            MethodInfo method = calculator.GetType().GetMethod(
+                "Compute", 
+                BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic, 
+                null, 
+                new Type[]{typeof(int)}, 
+                null);
+
+            int result = 0;
+            for (int i = 0; i < 10000000; i++)
+            {
+                // This is tedious, ugly and error prone. And slow...
+                result = (int)method.Invoke(null, new object[] { result });
+            }
+            return result;
+        }
+
+    private  static int Process2(object calculator)
+    {
+        // Easy, clean and strong typed.
+        var method = calculator.GetInstanceInvoker<Func<int, int>>("Compute");
+        int result = 0;
+        for (int i = 0; i < 10000000; i++)
+        {
+            // This is simple, clean and as fast as normal method call, which
+            // is thousands times faster than method.Invoke.
+            result = method(result);
+        }
+        return result;
+    }
 
         private static void DynamicMethodInvokePerformanceTest()
         {
+            Sub[] array = null;
+
+
             Base sub = new Sub();
             DynamicMethod dynamicMethod = Utils.CreateDynamicMethod(typeof(Base).GetMethod(methodName));
             object o = new object();

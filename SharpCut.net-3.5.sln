@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.PerformanceTest", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.Inception", "example\SharpCut.Inception\SharpCut.Inception.csproj", "{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.CachePerformance", "example\SharpCut.CachePerformance\SharpCut.CachePerformance.csproj", "{94565B31-D97B-43E0-BB34-87551B2F68AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpCut.Examples", "example\SharpCut.Examples\SharpCut.Examples.csproj", "{1A8000BD-22D3-4DB0-A970-7902016B4DEA}"
 EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
@@ -37,10 +37,10 @@ Global
 		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD14EB1-5D04-45B3-8536-ABF94F66FD9A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{94565B31-D97B-43E0-BB34-87551B2F68AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A8000BD-22D3-4DB0-A970-7902016B4DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A8000BD-22D3-4DB0-A970-7902016B4DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A8000BD-22D3-4DB0-A970-7902016B4DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A8000BD-22D3-4DB0-A970-7902016B4DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
